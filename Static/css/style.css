@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(../img/bg_pattern.png);
+  font-family: "Basic Sans";
+}
+
+.myHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myHeader img {
+  margin-top: 80px;
+  margin-bottom: 125px;
+}
+
+@media (max-width: 768px) {
+  .myHeader img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+
+.first-part {
+  color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-part h1 {
+  font-size: 92px;
+  letter-spacing: -5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.first-part p {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.first-part .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .first-part {
+    width: 80vw;
+  }
+}
+
+.projectks {
+  color: #ffffff;
+  margin-bottom: 65px;
+}
+
+@media (max-width: 992px) {
+  .projectks {
+    margin-bottom: 45px;
+  }
+  .projectks .logo2 {
+    margin-top: 0;
+  }
+  .projectks h3 {
+    margin-bottom: 30px;
+  }
+}
+
+.projectks h2 {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.projectks .logo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.projectks h3 {
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.projectks .contetn-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+@media (max-width: 992px) {
+  .projectks .contetn-holder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .projectks .contetn-holder .iteam {
+    margin-bottom: 30px;
+  }
+}
+
+.projectks .contetn-holder .iteam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projectks .contetn-holder .iteam img {
+  margin-bottom: 25px;
+}
+
+.projectks .contetn-holder .iteam p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 248px;
+}
+
+.contatus {
+  color: #ffffff;
+  margin-bottom: 115px;
+}
+
+.contatus .thief {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contatus .thief img {
+  margin-bottom: 15px;
+}
+
+.contatus .thief h2 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+
+.contatus .contetn-holder {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contatus .contetn-holder h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.contatus .contetn-holder p {
+  font-size: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contatus .contetn-holder p .underline {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contatus {
+    margin-bottom: 40px;
+  }
+  .contatus .thief img {
+    margin-bottom: 5px;
+  }
+  .contatus .thief h2 {
+    margin-bottom: 30px;
+  }
+  .contatus .contetn-holder {
+    width: 100%;
+  }
+  .contatus .contetn-holder h3 {
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  margin-bottom: 70px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+footer .address p {
+  font-weight: lighter;
+}
+
+footer .copyright {
+  width: 80vw;
+  margin: auto;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-bottom: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
